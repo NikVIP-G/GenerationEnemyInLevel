@@ -1,0 +1,6 @@
+/.vs
+.vsconfig
+Library/AnnotationManager
+/Library
+/Logs
+/Packages
