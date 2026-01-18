@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\SpawnHandlerWithDefineDirection.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Scripts\TimerSpawn.cs" />
     <Compile Include="Assets\Scripts\SpawnerWithDefineDirection.cs" />
   </ItemGroup>
   <ItemGroup>

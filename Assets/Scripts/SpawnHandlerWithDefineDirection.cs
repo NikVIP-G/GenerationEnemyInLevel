@@ -1,23 +1,25 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using UnityEngine;
+
+[RequireComponent (typeof(TimerSpawn))]
 
 public class SpawnHandlerWithDefineDirection : MonoBehaviour
 {
     [SerializeField] private SpawnerWithDefineDirection[] _spawners;
-    [SerializeField] private float _spawnTime = 2.0f;
+    [SerializeField] private TimerSpawn _timerSpawn;
 
-    private float _timer = 0.0f;
-
-    private void Update()
+    private void OnEnable()
     {
-        _timer += Time.deltaTime;
-        if (_timer >= _spawnTime)
-        {
-            int randomIndexSpawner = Random.Range(0, _spawners.Length);
-            _spawners[randomIndexSpawner].Spawn();
-            _timer = 0.0f;
-        }
+        _timerSpawn.timerEnded += Spawn;
+    }
+
+    private void OnDisable()
+    {
+        _timerSpawn.timerEnded -= Spawn;
+    }
+
+    private void Spawn()
+    {
+        int randomIndexSpawner = Random.Range(0, _spawners.Length);
+        _spawners[randomIndexSpawner].Spawn();
     }
 }

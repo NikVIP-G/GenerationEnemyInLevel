@@ -16,7 +16,7 @@ public class SpawnerWithDefineDirection : Spawner <SpawnedObject>
     public override SpawnedObject Spawn()
     {
         SpawnedObject spawnedObject = base.Spawn();
-        spawnedObject.transform.rotation = Quaternion.Euler(spawnedObject.transform.rotation.x, _direction, spawnedObject.transform.rotation.z);
+        spawnedObject.SetDirection(_direction);
         return spawnedObject;
     }
 }
