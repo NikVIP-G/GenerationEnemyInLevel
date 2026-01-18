@@ -2,18 +2,21 @@ using UnityEngine;
 
 [RequireComponent (typeof(Rigidbody))]
 
-public class SpawnedObject : MonoBehaviour 
+public class SpawnedObject: MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    public void SetDirection(float direction)
+    private Target _target;
+
+    public void SetTarget(Target target)
     {
-        transform.rotation = Quaternion.Euler(transform.rotation.x, direction, transform.rotation.z);
+        _target = target;
     }
 
     private void Update()
     {
-        transform.Translate( Vector3.forward * _speed * Time.deltaTime );
+        transform.LookAt(_target.transform.position);
+        transform.position = Vector3.MoveTowards(transform.position, _target.transform.position, _speed * Time.deltaTime);
     }
 
 }

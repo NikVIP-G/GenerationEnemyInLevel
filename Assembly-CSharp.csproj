@@ -60,12 +60,21 @@
     <Analyzer Include="E:\unity\Unity\Editor\2022.3.62f3\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BlueSpawnedObject.cs" />
+    <Compile Include="Assets\Scripts\SpawnerBlueObject.cs" />
+    <Compile Include="Assets\Scripts\SpawnerGreenObject.cs" />
+    <Compile Include="Assets\Scripts\SpawnerWithTarget.cs" />
     <Compile Include="Assets\Scripts\SpawnedObject.cs" />
-    <Compile Include="Assets\Scripts\SpawnHandlerWithDefineDirection.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
-    <Compile Include="Assets\Scripts\DestroyObject.cs" />
+    <Compile Include="Assets\Scripts\SpawnerHandler.cs" />
+    <Compile Include="Assets\Scripts\RedSpawnerHandler.cs" />
+    <Compile Include="Assets\Scripts\GreenSpawnerHandler.cs" />
+    <Compile Include="Assets\Scripts\GreenSpawnedObject.cs" />
     <Compile Include="Assets\Scripts\TimerSpawn.cs" />
-    <Compile Include="Assets\Scripts\SpawnerWithDefineDirection.cs" />
+    <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\Scripts\BlueSpawnerHandler.cs" />
+    <Compile Include="Assets\Scripts\RedSpawnedObject.cs" />
+    <Compile Include="Assets\Scripts\SpawnerRedObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -2,9 +2,9 @@ using UnityEngine;
 
 [RequireComponent (typeof(TimerSpawn))]
 
-public class SpawnHandlerWithDefineDirection : MonoBehaviour
+public class SpawnerHandler<T, N> : MonoBehaviour where T : Spawner<N> where N : SpawnedObject
 {
-    [SerializeField] private SpawnerWithDefineDirection[] _spawners;
+    [SerializeField] private T _spawners;
     [SerializeField] private TimerSpawn _timerSpawn;
 
     private void OnEnable()
@@ -19,7 +19,6 @@ public class SpawnHandlerWithDefineDirection : MonoBehaviour
 
     private void Spawn()
     {
-        int randomIndexSpawner = Random.Range(0, _spawners.Length);
-        _spawners[randomIndexSpawner].Spawn();
+        _spawners.Spawn();
     }
 }
