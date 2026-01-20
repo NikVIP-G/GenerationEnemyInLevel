@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2050910618216456323}
   - component: {fileID: 3129613794122038710}
   m_Layer: 0
-  m_Name: BlueCapsule
+  m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -257,4 +257,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 6
-  _rendere: {fileID: 4088666013389915155}
+  _rigidbody: {fileID: 8985170345566260811}
+  _renderer: {fileID: 4088666013389915155}
+  _color: {r: 0, g: 0.11251116, b: 1, a: 0}

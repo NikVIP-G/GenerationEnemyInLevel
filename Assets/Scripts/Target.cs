@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Target : MonoBehaviour 
@@ -10,13 +11,8 @@ public class Target : MonoBehaviour
     private void Update()
     {
         if (transform.position == _wayPoints[_currentWayPoint].position)
-            _currentWayPoint = (_currentWayPoint + 1) % _wayPoints.Length;
+            _currentWayPoint = ++_currentWayPoint % _wayPoints.Length;
 
         transform.position = Vector3.MoveTowards(transform.position, _wayPoints[_currentWayPoint].position, _speed * Time.deltaTime);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Destroy(other.gameObject);
     }
 }

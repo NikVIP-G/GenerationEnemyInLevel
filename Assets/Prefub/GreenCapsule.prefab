@@ -150,7 +150,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 8
-  _rendere: {fileID: 1090222099004491820}
+  _rigidbody: {fileID: 7748110674436494383}
+  _renderer: {fileID: 1090222099004491820}
+  _color: {r: 0, g: 0.9150943, b: 0.1378928, a: 0}
 --- !u!1 &6264013983194279122
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2864187954880581962}
-  - component: {fileID: 619482392536007408}
+  - component: {fileID: 1372575948391165258}
   m_Layer: 0
   m_Name: RedSpawner
   m_TagString: Untagged
@@ -26,13 +26,13 @@ Transform:
   m_GameObject: {fileID: 4772641815233582235}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -26.79658, y: -7.61, z: 24.360317}
+  m_LocalPosition: {x: -1.82, y: -1.5011501, z: 34.51}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &619482392536007408
+--- !u!114 &1372575948391165258
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4772641815233582235}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a7125c00fa1a195498941cb440f3a1a0, type: 3}
+  m_Script: {fileID: 11500000, guid: fad0857568783664fb52603fe1c0094c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 8047050045247527061, guid: c105efe164957a847ae23a32cf1415b8, type: 3}
