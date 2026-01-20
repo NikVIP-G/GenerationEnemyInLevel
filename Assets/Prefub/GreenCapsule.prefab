@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1090222099004491820}
   - component: {fileID: 6442091912346792942}
   - component: {fileID: 7748110674436494383}
-  - component: {fileID: 69916600791576757}
+  - component: {fileID: -5719312938491037939}
   m_Layer: 0
   m_Name: GreenCapsule
   m_TagString: Untagged
@@ -137,7 +137,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &69916600791576757
+--- !u!114 &-5719312938491037939
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,13 +146,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 6031432135429436217}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82afed799928389408e1c9045f2697c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c3e879c3b46ae540acac77cd672e2a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 8
   _rigidbody: {fileID: 7748110674436494383}
   _renderer: {fileID: 1090222099004491820}
-  _color: {r: 0, g: 0.9150943, b: 0.1378928, a: 0}
+  _color: {r: 0, g: 0.8773585, b: 0.16788818, a: 0}
 --- !u!1 &6264013983194279122
 GameObject:
   m_ObjectHideFlags: 0

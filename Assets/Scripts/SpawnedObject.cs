@@ -3,7 +3,7 @@ using UnityEngine;
 
 [RequireComponent (typeof(Rigidbody))]
 
-public abstract class SpawnedObject: MonoBehaviour
+public class SpawnedObject: MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private Rigidbody _rigidbody;

@@ -35,8 +35,8 @@ public class SpawnerHandler : MonoBehaviour
             if (spawner.Pool.PrefabType == @object.GetType())
             {
                 @object.Collided -= Release;
-                spawner.Pool.Release(@object);
                 @object.Reset();
+                spawner.Pool.Release(@object);
                 break;
             }
         }

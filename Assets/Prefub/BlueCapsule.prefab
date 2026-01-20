@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 4088666013389915155}
   - component: {fileID: 8650296022292672722}
   - component: {fileID: 8985170345566260811}
-  - component: {fileID: 9042906582085388541}
+  - component: {fileID: 3524954787130767970}
   m_Layer: 0
   m_Name: BlueCapsule
   m_TagString: Untagged
@@ -244,7 +244,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &9042906582085388541
+--- !u!114 &3524954787130767970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -253,10 +253,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6608320384080073267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 740ea9737481c3941add95be310d4d18, type: 3}
+  m_Script: {fileID: 11500000, guid: 5c3e879c3b46ae540acac77cd672e2a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 6
   _rigidbody: {fileID: 8985170345566260811}
   _renderer: {fileID: 4088666013389915155}
-  _color: {r: 0, g: 0.11251116, b: 1, a: 0}
+  _color: {r: 0, g: 0.11872864, b: 1, a: 0}

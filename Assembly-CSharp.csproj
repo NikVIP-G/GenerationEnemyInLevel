@@ -62,16 +62,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Spawners\SpawnerWithTarget.cs" />
     <Compile Include="Assets\Scripts\Spawners\Spawner.cs" />
-    <Compile Include="Assets\Scripts\SpawnedObjects\BlueSpawnedObject.cs" />
     <Compile Include="Assets\Scripts\Pools\Pool.cs" />
+    <Compile Include="Assets\Scripts\SpawnedObject.cs" />
     <Compile Include="Assets\Scripts\Spawners\SpawnerObject.cs" />
     <Compile Include="Assets\Scripts\Pools\PoolSpawnedObject.cs" />
-    <Compile Include="Assets\Scripts\SpawnedObjects\GreenSpawnedObject.cs" />
     <Compile Include="Assets\Scripts\Spawners\TimerSpawn.cs" />
-    <Compile Include="Assets\Scripts\SpawnedObjects\SpawnedObject.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
     <Compile Include="Assets\Scripts\Spawners\SpawnerHandler.cs" />
-    <Compile Include="Assets\Scripts\SpawnedObjects\RedSpawnedObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
